@@ -66,14 +66,14 @@ int Place (int data [], int Size, int sorted)
 
 //-----------------------------------------------------------------------------
 
-int Find (int data[], int sorted, int left, int right)
+int Find (int data[], int sorted, int left, int right,)
     {
     int mid = 0;
     int start = sorted + 1;
 
     while ((right - left) > 2)
         {
-        $b printf ("\nÿ כוגע : %d  א ÿ נאיע: %d", left, right); $c
+        $w printf ("\nÿ כוגע : %d  א ÿ נאיע: %d", left, right); $c
         start = sorted + 1;
         mid = (left + right)/2;
 
